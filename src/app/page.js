@@ -1,14 +1,16 @@
 "use client";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import SpiderWebBackground from "@/components/SpiderWebBackground";
+import LampBackground from "@/components/LampBackground";
+//import SpiderWebBackground from "@/components/SpiderWebBackground";
+
 
 
 export default function Home() {
   return (
     <div className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Jaring Laba-laba */}
-      <SpiderWebBackground />
+      <LampBackground />
 
       {/* Konten Utama */}
       <main className="relative z-10 flex flex-col-reverse md:flex-row items-center justify-between container mx-auto px-6 py-16 h-full gap-10">
@@ -45,7 +47,7 @@ export default function Home() {
           className="md:w-1/2 flex justify-center mb-10 md:mb-0"
         >
           <Image
-            src="/Shanda.png"
+            src="/koko.jpg"
             alt="Foto Profil"
             width={300}
             height={300}

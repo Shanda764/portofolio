@@ -2,7 +2,7 @@
 import "./globals.css";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import SpiderWebBackground from "../components/SpiderWebBackground"; // ganti SpiderWebBackground
+import LampBackground from "../components/LampBackground";
 
 export const metadata = {
   title: "My Portfolio",
@@ -12,9 +12,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="relative min-h-screen text-white">
-        {/* Background hitam-putih statis */}
-        <SpiderWebBackground />
+      <body className="relative min-h-screen bg-black text-white overflow-x-hidden">
+        {/* Background lamp effect */}
+        <LampBackground />
 
         {/* Konten utama */}
         <Navbar />

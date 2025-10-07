@@ -2,8 +2,9 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { FaGraduationCap, FaUsers, FaCertificate, FaStar, FaDollarSign, FaBuilding } from "react-icons/fa";
-import { SiLaravel, SiCodeigniter, SiNextdotjs, SiCss3, SiHtml5, SiPhp, SiJavascript } from "react-icons/si";
-import SpiderWebBackground from "components/SpiderWebBackground";
+import { SiLaravel, SiCodeigniter, SiNextdotjs, SiCss3, SiHtml5, SiPhp, SiJavascript, SiBootstrap,SiTailwindcss } from "react-icons/si";
+//import SpiderWebBackground from "components/SpiderWebBackground";
+import LampBackground from "@/components/LampBackground";
 
 const containerVariants = {
   hidden: {},
@@ -26,12 +27,14 @@ export default function About() {
     { name: "HTML5", icon: <SiHtml5 size={40} className="text-orange-500" /> },
     { name: "PHP", icon: <SiPhp size={40} className="text-indigo-600" /> },
     { name: "JavaScript", icon: <SiJavascript size={40} className="text-yellow-400" /> },
+    { name: "Bootstrap", icon: <SiBootstrap size={40} className="text-purple-600" /> },
+    { name: "Tailwind CSS", icon: <SiTailwindcss size={40} className="text-blue-400" /> },
   ];
 
   return (
     <div className="relative">
       {/* Background Jaring Laba-laba full screen */}
-      <SpiderWebBackground />
+      <LampBackground />
 
       {/* Konten utama */}
       <section className="relative z-10 px-6 py-16 max-w-5xl mx-auto space-y-16">
@@ -44,7 +47,7 @@ export default function About() {
           {/* Profil */}
           <motion.div variants={itemVariants} className="flex flex-col md:flex-row items-center gap-8 bg-gray-900/50 backdrop-blur-md rounded-xl p-6 shadow-lg">
             <Image
-              src="/Shanda.png"
+              src="/koko.jpg"
               alt="Foto Profil"
               width={200}
               height={200}
@@ -91,8 +94,6 @@ export default function About() {
           <motion.div variants={itemVariants} className="bg-gray-900/50 backdrop-blur-md rounded-xl p-6 shadow-lg">
             <h2 className="text-3xl font-bold text-indigo-400 mb-4 flex items-center gap-2"><FaBuilding/> Pengalaman Kerja</h2>
             <ul className="list-disc list-inside text-lg text-gray-300 space-y-2">
-              <li>Admin – Konter FastPay (2017 - 2018)</li>
-              <li>Montir – Bengekel Merry Motor (2019 - 2020)</li>
               <li>Barista – Bius Coffee (2021 - 2022)</li>
               <li>Freelancer Junior Web Developer (2024 - Sekarang)</li>
             </ul>

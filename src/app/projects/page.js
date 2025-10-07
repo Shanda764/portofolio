@@ -6,7 +6,7 @@ import {
   FaGithub,
   FaLinkedin
 } from "react-icons/fa";
-import SpiderWebBackground from "components/SpiderWebBackground";
+import LampBackground from "@/components/LampBackground";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -97,11 +97,11 @@ export default function Projects() {
   ];
 
   return (
-    <div className="relative">
-      {/* Background jaring laba-laba */}
-      <SpiderWebBackground />
+    <div className="relative min-h-screen overflow-x-hidden">
+      {/* Background penuh menyatu */}
+      <LampBackground />
 
-      {/* Konten utama */}
+      {/* Semua konten di atas background */}
       <section className="relative z-10 px-6 py-16 max-w-6xl mx-auto space-y-16">
         <motion.div
           className="space-y-16"
@@ -195,3 +195,4 @@ export default function Projects() {
     </div>
   );
 }
+  
