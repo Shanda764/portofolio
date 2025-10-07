@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { FaGraduationCap, FaUsers, FaCertificate, FaStar, FaDollarSign, FaBuilding } from "react-icons/fa";
-import { SiLaravel, SiCodeigniter, SiNextdotjs, SiCss3, SiHtml5, SiPhp, SiJavascript, SiBootstrap,SiTailwindcss } from "react-icons/si";
+import { SiLaravel, SiCodeigniter, SiNextdotjs, SiCss3, SiHtml5, SiPhp, SiJavascript, SiBootstrap,SiTailwindcss, SiTypescript } from "react-icons/si";
 //import SpiderWebBackground from "components/SpiderWebBackground";
 import LampBackground from "@/components/LampBackground";
 
@@ -29,6 +29,7 @@ export default function About() {
     { name: "JavaScript", icon: <SiJavascript size={40} className="text-yellow-400" /> },
     { name: "Bootstrap", icon: <SiBootstrap size={40} className="text-purple-600" /> },
     { name: "Tailwind CSS", icon: <SiTailwindcss size={40} className="text-blue-400" /> },
+    { name: "TypeScript", icon: <SiTypescript size={40} className="text-blue-500" /> },
   ];
 
   return (
