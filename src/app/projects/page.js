@@ -1,14 +1,9 @@
-"use client";
-import { motion } from "framer-motion";
-import {
-  FaLaptopCode,
-  FaServer,
-  FaGithub,
-  FaLinkedin
-} from "react-icons/fa";
-import LampBackground from "@/components/LampBackground";
-import Image from "next/image";
-import Link from "next/link";
+'use client';
+import { motion } from 'framer-motion';
+import { FaLaptopCode, FaServer, FaGithub, FaLinkedin } from 'react-icons/fa';
+import LampBackground from '@/components/LampBackground';
+import Image from 'next/image';
+import Link from 'next/link';
 
 const containerVariants = {
   hidden: {},
@@ -23,76 +18,76 @@ const itemVariants = {
 export default function Projects() {
   const projects = [
     {
-      title: "Web Sistem Pengaduan Desa Kepau Jaya",
+      title: 'Web Sistem Pengaduan Desa Kepau Jaya',
       icon: <FaServer size={40} className="text-yellow-400" />,
-      image: "/desa.png",
+      image: '/desa.png',
       description:
-        "Sistem pengaduan online untuk warga desa yang memungkinkan pengguna untuk melaporkan masalah, memberikan masukan, dan memantau status pengaduan.",
-      tech: ["JavaScript", "Laravel", "PHP", "MySQL"],
-      year: "2024",
+        'Sistem pengaduan online untuk warga desa yang memungkinkan pengguna untuk melaporkan masalah, memberikan masukan, dan memantau status pengaduan.',
+      tech: ['JavaScript', 'Laravel', 'PHP', 'MySQL'],
+      year: '2024',
     },
     {
-      title: "Web Sistem Point of Sale (POS) Toko Grosir",
+      title: 'Web Sistem Point of Sale (POS) Toko Grosir',
       icon: <FaServer size={40} className="text-yellow-400" />,
-      image: "/grosir.png",
+      image: '/grosir.png',
       description:
-        "Sistem point of sale (POS) untuk toko grosir yang memungkinkan pencatatan transaksi, manajemen inventaris, dan laporan penjualan secara real-time.",
-      tech: ["JavaScript", "Laravel", "PHP", "MySQL"],
-      year: "2024",
+        'Sistem point of sale (POS) untuk toko grosir yang memungkinkan pencatatan transaksi, manajemen inventaris, dan laporan penjualan secara real-time.',
+      tech: ['JavaScript', 'Laravel', 'PHP', 'MySQL'],
+      year: '2024',
     },
     {
-      title: "Web Sistem Kasir Bengkel Motor",
+      title: 'Web Sistem Kasir Bengkel Motor',
       icon: <FaServer size={40} className="text-yellow-400" />,
-      image: "/kasirbengkel.png",
+      image: '/kasirbengkel.png',
       description:
-        "Sistem kasir untuk bengkel motor yang memungkinkan pencatatan transaksi, manajemen inventaris, dan laporan keuangan secara real-time.",
-      tech: ["JavaScript", "Laravel", "PHP", "MySQL"],
-      year: "2024",
+        'Sistem kasir untuk bengkel motor yang memungkinkan pencatatan transaksi, manajemen inventaris, dan laporan keuangan secara real-time.',
+      tech: ['JavaScript', 'Laravel', 'PHP', 'MySQL'],
+      year: '2024',
     },
     {
-      title: "Web Sistem Manajemen Inventaris",
+      title: 'Web Sistem Manajemen Inventaris',
       icon: <FaServer size={40} className="text-yellow-400" />,
-      image: "/inven.png",
+      image: '/inven.png',
       description:
-        "Sistem manajemen inventaris yang memungkinkan pengguna untuk mengelola stok barang, melakukan pemesanan, dan memantau status inventaris secara real-time.",
-      tech: ["JavaScript", "Laravel", "PHP", "MySQL"],
-      year: "2024",
+        'Sistem manajemen inventaris yang memungkinkan pengguna untuk mengelola stok barang, melakukan pemesanan, dan memantau status inventaris secara real-time.',
+      tech: ['JavaScript', 'Laravel', 'PHP', 'MySQL'],
+      year: '2024',
     },
     {
-      title: "Web Sistem Peminjaman Buku Perpustakaan",
+      title: 'Web Sistem Peminjaman Buku Perpustakaan',
       icon: <FaServer size={40} className="text-yellow-400" />,
-      image: "/perpus.png",
+      image: '/perpus.png',
       description:
-        "Sistem peminjaman buku perpustakaan yang memungkinkan pengguna untuk meminjam dan mengembalikan buku secara online.",
-      tech: ["JavaScript", "Laravel", "PHP", "MySQL"],
-      year: "2025",
+        'Sistem peminjaman buku perpustakaan yang memungkinkan pengguna untuk meminjam dan mengembalikan buku secara online.',
+      tech: ['JavaScript', 'Laravel', 'PHP', 'MySQL'],
+      year: '2025',
     },
     {
-      title: "Web Sistem E-Surat SMK Negeri YPPI Tualang",
+      title: 'Web Sistem E-Surat SMK Negeri YPPI Tualang',
       icon: <FaServer size={40} className="text-yellow-400" />,
-      image: "/e-surat.png",
+      image: '/e-surat.png',
       description:
-        "Sistem pengajuan surat untuk SMK Negeri YPPI Tualang, yang memungkinkan siswa untuk mengajukan surat secara online serta memantau status pengajuan.",
-      tech: ["JavaScript", "Laravel", "PHP", "MySQL"],
-      year: "2025",
+        'Sistem pengajuan surat untuk SMK Negeri YPPI Tualang, yang memungkinkan siswa untuk mengajukan surat secara online serta memantau status pengajuan.',
+      tech: ['JavaScript', 'Laravel', 'PHP', 'MySQL'],
+      year: '2025',
     },
     {
-      title: "Web Sistem Booking Barber Shop",
+      title: 'Web Sistem Booking Barber Shop',
       icon: <FaServer size={40} className="text-yellow-400" />,
-      image: "/barbershope.png",
+      image: '/barbershope.png',
       description:
-        "Sistem booking untuk barber shop yang memungkinkan pengguna untuk melakukan reservasi jadwal potong rambut secara online.",
-      tech: ["JavaScript", "Laravel", "PHP", "MySQL"],
-      year: "2024",
+        'Sistem booking untuk barber shop yang memungkinkan pengguna untuk melakukan reservasi jadwal potong rambut secara online.',
+      tech: ['JavaScript', 'Laravel', 'PHP', 'MySQL'],
+      year: '2024',
     },
     {
-      title: "Website Portofolio Pribadi",
+      title: 'Website Portofolio Pribadi',
       icon: <FaLaptopCode size={40} className="text-green-400" />,
-      image: "/porto.png",
+      image: '/porto.png',
       description:
-        "Website portofolio pribadi yang menampilkan profil, pengalaman, dan proyek dengan desain modern serta animasi interaktif menggunakan Framer Motion.",
-      tech: ["Next.js", "Framer Motion", "Tailwind CSS"],
-      year: "2025",
+        'Website portofolio pribadi yang menampilkan profil, pengalaman, dan proyek dengan desain modern serta animasi interaktif menggunakan Framer Motion.',
+      tech: ['Next.js', 'Framer Motion', 'Tailwind CSS'],
+      year: '2025',
     },
   ];
 
@@ -103,20 +98,13 @@ export default function Projects() {
 
       {/* Semua konten di atas background */}
       <section className="relative z-10 px-6 py-16 max-w-6xl mx-auto space-y-16">
-        <motion.div
-          className="space-y-16"
-          initial="hidden"
-          animate="visible"
-          variants={containerVariants}
-        >
+        <motion.div className="space-y-16" initial="hidden" animate="visible" variants={containerVariants}>
           {/* Judul Halaman */}
           <motion.div variants={itemVariants} className="text-center">
-            <h1 className="text-4xl font-bold text-indigo-400 mb-4">
-              Proyek Saya
-            </h1>
+            <h1 className="text-4xl font-bold text-indigo-400 mb-4">Proyek Saya</h1>
             <p className="text-gray-300 text-lg max-w-3xl mx-auto mb-6">
-              Berikut adalah beberapa proyek yang telah saya kerjakan selama perjalanan saya
-              di dunia pengembangan web dan analisis data.
+              Berikut adalah beberapa proyek yang telah saya kerjakan selama perjalanan saya di dunia pengembangan web
+              dan analisis data.
             </p>
 
             {/* Tombol GitHub & LinkedIn */}
@@ -160,32 +148,24 @@ export default function Projects() {
                     src={project.image}
                     alt={project.title}
                     fill
+                    sizes={'(max-width: 768px) 100vw,(max-width: 1024px) 50vw, 33vw'}
                     className="object-cover"
                   />
                 </div>
                 <div className="p-6 flex flex-col flex-1">
                   <div className="flex items-center gap-3 mb-3">
                     {project.icon}
-                    <h2 className="text-2xl font-semibold text-indigo-300">
-                      {project.title}
-                    </h2>
+                    <h2 className="text-2xl font-semibold text-indigo-300">{project.title}</h2>
                   </div>
-                  <p className="text-gray-400 text-sm mb-4 flex-1 text-justify">
-                    {project.description}
-                  </p>
+                  <p className="text-gray-400 text-sm mb-4 flex-1 text-justify">{project.description}</p>
                   <div className="flex flex-wrap gap-2 mb-3">
                     {project.tech.map((tech, i) => (
-                      <span
-                        key={i}
-                        className="bg-indigo-700/30 text-indigo-300 px-2 py-1 text-xs rounded-md"
-                      >
+                      <span key={i} className="bg-indigo-700/30 text-indigo-300 px-2 py-1 text-xs rounded-md">
                         {tech}
                       </span>
                     ))}
                   </div>
-                  <p className="text-right text-gray-500 text-sm">
-                    Tahun: {project.year}
-                  </p>
+                  <p className="text-right text-gray-500 text-sm">Tahun: {project.year}</p>
                 </div>
               </motion.div>
             ))}
@@ -195,4 +175,3 @@ export default function Projects() {
     </div>
   );
 }
-  
