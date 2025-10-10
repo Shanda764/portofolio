@@ -1,9 +1,8 @@
-"use client";
-import { motion } from "framer-motion";
-import Image from "next/image";
-import LampBackground from "@/components/LampBackground";
+'use client';
+import { motion } from 'framer-motion';
+import Image from 'next/image';
+import LampBackground from '@/components/LampBackground';
 //import SpiderWebBackground from "@/components/SpiderWebBackground";
-
 
 export default function Home() {
   return (
@@ -13,7 +12,6 @@ export default function Home() {
 
       {/* Konten Utama */}
       <main className="relative z-10 flex flex-col-reverse md:flex-row items-center justify-between container mx-auto px-6 py-16 h-full gap-10">
-        
         {/* Bagian Teks */}
         <motion.div
           initial={{ opacity: 0, x: -50 }}
@@ -23,13 +21,13 @@ export default function Home() {
         >
           <h1 className="text-4xl md:text-6xl font-bold mb-6 text-gray-100">
             <span className="text-indigo-500">Portfolio </span>
-            {" Shanda Dwijri Syafly"}
+            {' Shanda Dwijri Syafly'}
           </h1>
           <p className="text-lg text-gray-300 mb-8">
             Ini adalah halaman utama portfolio saya yang menampilkan berbagai proyek dan pengalaman saya.
           </p>
           <motion.a
-            href="/projects"
+            href="/portofolio/projects"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="inline-block bg-indigo-600 text-white px-6 py-3 rounded-lg shadow-md hover:bg-indigo-700 transition-colors"
