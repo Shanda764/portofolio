@@ -34,7 +34,58 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-=======
-# portofolio
->>>>>>> 6df5b4997dad89baa28c7f2fe59700374d40e8c1
+# Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+# Portofolio
+
+Ini adalah proyek [Next.js](https://nextjs.org) yang dibuat dengan [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+## Getting Started
+
+Jalankan server pengembangan dengan perintah berikut:
+
+```bash
+npm run dev
+# atau
+yarn dev
+# atau
+pnpm dev
+# atau
+bun dev
+```
+
+Buka [http://localhost:3000](http://localhost:3000) di browser untuk melihat hasilnya.
+
+Anda dapat mulai mengedit halaman dengan memodifikasi file di folder `src/app/`. Perubahan akan otomatis ter-update.
+
+Proyek ini menggunakan [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) untuk optimasi dan pemuatan font otomatis.
+
+## Fitur
+
+- Portofolio pribadi dengan daftar proyek
+- Animasi interaktif menggunakan Framer Motion
+- Desain modern dan responsif
+
+## Struktur Folder
+
+- `src/app/` : Halaman utama dan sub-halaman (about, contact, projects)
+- `src/components/` : Komponen UI seperti Navbar, Footer, dll
+- `src/styles/` : File CSS
+- `public/` : Asset gambar
+
+## Learn More
+
+Untuk mempelajari lebih lanjut tentang Next.js:
+
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Learn Next.js](https://nextjs.org/learn)
+
+Repositori Next.js: [GitHub Next.js](https://github.com/vercel/next.js)
+
+## Deploy on Vercel
+
+Cara termudah untuk deploy aplikasi Next.js adalah menggunakan [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme).
+
+Dokumentasi deploy: [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying)
+
+> > > > > > > 6df5b4997dad89baa28c7f2fe59700374d40e8c1
