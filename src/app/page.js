@@ -44,7 +44,7 @@ export default function Home() {
           className="md:w-1/2 flex justify-center mb-10 md:mb-0"
         >
          <img 
-          src="/koko.jpg"
+          src="/portofolio/koko.jpg"
           alt="Foto Profil" 
           className="rounded-full shadow-xl border-4 border-indigo-500"
           width="300"
