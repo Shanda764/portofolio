@@ -20,7 +20,7 @@ export default function Projects() {
     {
       title: 'Web Sistem Pengaduan Desa Kepau Jaya',
       icon: <FaServer size={40} className="text-yellow-400" />,
-      image: '/desa.png',
+      image: '/portofolio/desa.png',
       description:
         'Sistem pengaduan online untuk warga desa yang memungkinkan pengguna untuk melaporkan masalah, memberikan masukan, dan memantau status pengaduan.',
       tech: ['JavaScript', 'Laravel', 'PHP', 'MySQL'],
@@ -29,7 +29,7 @@ export default function Projects() {
     {
       title: 'Web Sistem Point of Sale (POS) Toko Grosir',
       icon: <FaServer size={40} className="text-yellow-400" />,
-      image: '/grosir.png',
+      image: '/portofolio/grosir.png',
       description:
         'Sistem point of sale (POS) untuk toko grosir yang memungkinkan pencatatan transaksi, manajemen inventaris, dan laporan penjualan secara real-time.',
       tech: ['JavaScript', 'Laravel', 'PHP', 'MySQL'],
@@ -38,7 +38,7 @@ export default function Projects() {
     {
       title: 'Web Sistem Kasir Bengkel Motor',
       icon: <FaServer size={40} className="text-yellow-400" />,
-      image: '/kasirbengkel.png',
+      image: '/portofolio/kasirbengkel.png',
       description:
         'Sistem kasir untuk bengkel motor yang memungkinkan pencatatan transaksi, manajemen inventaris, dan laporan keuangan secara real-time.',
       tech: ['JavaScript', 'Laravel', 'PHP', 'MySQL'],
@@ -47,7 +47,7 @@ export default function Projects() {
     {
       title: 'Web Sistem Manajemen Inventaris',
       icon: <FaServer size={40} className="text-yellow-400" />,
-      image: '/inven.png',
+      image: '/portofolio/inven.png',
       description:
         'Sistem manajemen inventaris yang memungkinkan pengguna untuk mengelola stok barang, melakukan pemesanan, dan memantau status inventaris secara real-time.',
       tech: ['JavaScript', 'Laravel', 'PHP', 'MySQL'],
@@ -56,7 +56,7 @@ export default function Projects() {
     {
       title: 'Web Sistem Peminjaman Buku Perpustakaan',
       icon: <FaServer size={40} className="text-yellow-400" />,
-      image: '/perpus.png',
+      image: '/portofolio/perpus.png',
       description:
         'Sistem peminjaman buku perpustakaan yang memungkinkan pengguna untuk meminjam dan mengembalikan buku secara online.',
       tech: ['JavaScript', 'Laravel', 'PHP', 'MySQL'],
@@ -65,7 +65,7 @@ export default function Projects() {
     {
       title: 'Web Sistem E-Surat SMK Negeri YPPI Tualang',
       icon: <FaServer size={40} className="text-yellow-400" />,
-      image: '/e-surat.png',
+      image: '/portofolio/e-surat.png',
       description:
         'Sistem pengajuan surat untuk SMK Negeri YPPI Tualang, yang memungkinkan siswa untuk mengajukan surat secara online serta memantau status pengajuan.',
       tech: ['JavaScript', 'Laravel', 'PHP', 'MySQL'],
@@ -74,7 +74,7 @@ export default function Projects() {
     {
       title: 'Web Sistem Booking Barber Shop',
       icon: <FaServer size={40} className="text-yellow-400" />,
-      image: '/barbershope.png',
+      image: '/portofolio/barbershope.png',
       description:
         'Sistem booking untuk barber shop yang memungkinkan pengguna untuk melakukan reservasi jadwal potong rambut secara online.',
       tech: ['JavaScript', 'Laravel', 'PHP', 'MySQL'],
@@ -83,7 +83,7 @@ export default function Projects() {
     {
       title: 'Website Portofolio Pribadi',
       icon: <FaLaptopCode size={40} className="text-green-400" />,
-      image: '/porto.png',
+      image: '/portofolio/porto.png',
       description:
         'Website portofolio pribadi yang menampilkan profil, pengalaman, dan proyek dengan desain modern serta animasi interaktif menggunakan Framer Motion.',
       tech: ['Next.js', 'Framer Motion', 'Tailwind CSS'],
