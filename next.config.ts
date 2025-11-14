@@ -2,13 +2,13 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // wajib untuk GitHub Pages (static export)
   output: "export",
 
-  // karena repo kamu bernama "portofolio"
-  assetPrefix: process.env.NODE_ENV === "production" ? "/portofolio/" : "",
+  basePath: "/portofolio",
+  assetPrefix: "/portofolio/",
 
-  // gambar harus unoptimized pada GitHub Pages
+  trailingSlash: true,
+
   images: {
     unoptimized: true,
   },
