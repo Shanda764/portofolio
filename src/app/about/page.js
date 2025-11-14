@@ -48,7 +48,7 @@ export default function About() {
           {/* Profil */}
           <motion.div variants={itemVariants} className="flex flex-col md:flex-row items-center gap-8 bg-gray-900/50 backdrop-blur-md rounded-xl p-6 shadow-lg">
             <Image
-              src="/about/koko.jpg"
+              src="/portofolio/koko.jpg"
               alt="Foto Profil"
               width={200}
               height={200}
