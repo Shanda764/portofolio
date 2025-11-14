@@ -43,14 +43,13 @@ export default function Home() {
           transition={{ duration: 0.8, delay: 0.3 }}
           className="md:w-1/2 flex justify-center mb-10 md:mb-0"
         >
-          <Image
-            src="/koko.jpg"
-            alt="Foto Profil"
-            width={300}
-            height={300}
-            className="rounded-full shadow-xl border-4 border-indigo-500"
-            priority
-          />
+         <img 
+          src="/koko.jpg"
+          alt="Foto Profil" 
+          className="rounded-full shadow-xl border-4 border-indigo-500"
+          width="300"
+          height="300"
+        />
         </motion.div>
       </main>
     </div>
