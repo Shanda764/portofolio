@@ -89,6 +89,15 @@ export default function Projects() {
       tech: ['Next.js', 'Framer Motion', 'Tailwind CSS'],
       year: '2025',
     },
+    {
+      title: 'Website Futsal Online',
+      icon: <FaLaptopCode size={40} className="text-green-400" />,
+      image: '/portofolio/futsal.png',
+      description:
+        'Website futsal online yang memungkinkan pengguna untuk memesan lapangan futsal secara mudah dan cepat dengan fitur kalender dan pembayaran online.',
+      tech: ['Next.js', 'Framer Motion', 'Tailwind CSS'],
+      year: '2025',
+    },
   ];
 
   return (
