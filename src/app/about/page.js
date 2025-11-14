@@ -53,6 +53,7 @@ export default function About() {
               width={200}
               height={200}
               className="rounded-full shadow-lg border-4 border-indigo-500"
+              unoptimized
             />
           <div>
             <h2 className="text-3xl font-bold text-indigo-400 mb-4">Profil Saya</h2>
