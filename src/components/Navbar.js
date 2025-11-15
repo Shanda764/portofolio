@@ -5,10 +5,9 @@ import { FaHome, FaUser, FaProjectDiagram, FaEnvelope } from "react-icons/fa";
 export default function Navbar() {
   return (
     <nav className="bg-gray-900 text-white px-6 py-4 flex justify-between items-center shadow-md relative z-20">
-      {/* My Portfolio bisa diklik */}
-     <Link href="/">
-        <a className="text-xl font-bold hover:text-blue-400">My Portfolio</a>
-     </Link>
+    <Link href="/" legacyBehavior>
+      <a className="text-xl font-bold hover:text-blue-400">My Portfolio</a>
+    </Link>
 
 
       <div className="flex gap-6">
