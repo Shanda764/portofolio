@@ -95,7 +95,7 @@ export default function Projects() {
       image: '/portofolio/futsal.png',
       description:
         'Website futsal online yang memungkinkan pengguna untuk memesan lapangan futsal secara mudah dan cepat dengan fitur kalender dan pembayaran online.',
-      tech: ['Next.js', 'Framer Motion', 'Tailwind CSS'],
+      tech: ['Laravel', 'MySQL', 'php', 'JavaScript'],
       year: '2025',
     },
   ];
