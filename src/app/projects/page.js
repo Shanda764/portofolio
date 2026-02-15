@@ -98,6 +98,14 @@ export default function Projects() {
       tech: ['Laravel', 'MySQL', 'php', 'JavaScript'],
       year: '2025',
     },
+    {
+      title : 'Website Perpustakaan Online',
+      icon : <FaLaptopCode size={40} className="text-blue-400" />,
+      image : '/portofolio/perpusonline.png',
+      description : 'Website perpustakaan online yang memungkinkan pengguna untuk mencari, meminjam, dan mengembalikan buku secara online dengan fitur katalog dan manajemen akun. serta manajemen denda keterlambatan, dan laporan statistik peminjaman, laporan buku hilang dengan fitur katalog dan manajemen akun.',
+      tech : ['Laravel', 'MySQL', 'php', 'JavaScript'],
+      year : '2026',
+    }
   ];
 
   return (
