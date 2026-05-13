@@ -20,8 +20,6 @@ export default function About() {
   const skills = [
     { name: "System Analyst", icon: <FaStar size={40} className="text-indigo-400" /> },
     { name: "Data Analyst", icon: <FaStar size={40} className="text-indigo-400" /> },
-    { name: "System Analysis", icon: <FaStar size={40} className="text-indigo-400" /> },
-    { name: "Data Analysis", icon: <FaStar size={40} className="text-indigo-400" /> },
     { name: "Tailwind", icon: <SiTailwindcss size={40} className="text-cyan-400" /> },
     { name: "Laravel", icon: <SiLaravel size={40} className="text-red-500" /> },
     { name: "CodeIgniter", icon: <SiCodeigniter size={40} className="text-red-600" /> },
@@ -97,7 +95,7 @@ export default function About() {
             <h2 className="text-3xl font-bold text-indigo-400 mb-4 flex items-center gap-2"><FaBuilding/> Pengalaman Kerja</h2>
             <ul className="list-disc list-inside text-lg text-gray-300 space-y-2">
               <li>Barista – Bius Coffee (2021 - 2022)</li>
-              <li>Intern Polda Riau – Februari - Maret 2026</li>
+              <li>Intern Polda Riau Februari - Maret 2026</li>
               <li>Freelancer Junior Web Developer (2024 - Sekarang)</li>
             </ul>
           </motion.div>
