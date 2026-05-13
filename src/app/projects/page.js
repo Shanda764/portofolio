@@ -163,7 +163,7 @@ export default function Projects() {
           </motion.div>
 
           {/* Daftar Proyek */}
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
             {projects.map((project, index) => (
               <motion.div
                 key={index}

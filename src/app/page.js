@@ -1,6 +1,7 @@
 'use client';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
+import Link from 'next/link';
 import LampBackground from '@/components/LampBackground';
 //import SpiderWebBackground from "@/components/SpiderWebBackground";
 
@@ -26,14 +27,14 @@ export default function Home() {
           <p className="text-lg text-gray-300 mb-8">
             Ini adalah halaman utama portfolio saya yang menampilkan berbagai proyek dan pengalaman saya.
           </p>
-          <motion.a
-            href="/portofolio/projects"
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-            className="inline-block bg-indigo-600 text-white px-6 py-3 rounded-lg shadow-md hover:bg-indigo-700 transition-colors"
-          >
-            Lihat Project
-          </motion.a>
+          <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }} className="inline-block">
+            <Link
+              href="/projects"
+              className="inline-block bg-indigo-600 text-white px-6 py-3 rounded-lg shadow-md hover:bg-indigo-700 transition-colors text-center"
+            >
+              Lihat Project
+            </Link>
+          </motion.div>
         </motion.div>
 
         {/* Bagian Foto Profil */}
@@ -43,13 +44,11 @@ export default function Home() {
           transition={{ duration: 0.8, delay: 0.3 }}
           className="md:w-1/2 flex justify-center mb-10 md:mb-0"
         >
-         <img 
-          src="/portofolio/koko.jpg"
-          alt="Foto Profil" 
-          className="rounded-full shadow-xl border-4 border-indigo-500"
-          width="300"
-          height="300"
-        />
+          <img
+            src="/portofolio/koko.jpg"
+            alt="Foto Profil"
+            className="rounded-full shadow-xl border-4 border-indigo-500 max-w-[300px] w-full h-auto"
+          />
         </motion.div>
       </main>
     </div>
