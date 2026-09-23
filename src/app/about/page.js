@@ -96,6 +96,7 @@ export default function About() {
             <ul className="list-disc list-inside text-lg text-gray-300 space-y-2">
               <li>Barista – Bius Coffee (2021 - 2022)</li>
               <li>Intern Polda Riau Februari - Maret 2026</li>
+              <li>Intern BPR FIANKA 13 Juni 2026 - 11 September 2026</li>
               <li>Freelancer Junior Web Developer (2024 - Sekarang)</li>
             </ul>
           </motion.div>
